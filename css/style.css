@@ -35,7 +35,7 @@ form input{
     padding: 0 30px;
     flex: 1;
     background: transparent;
-    color: darkgrey;
+    color: rgb(148, 141, 141);
 }
 /* CSS for search button*/
 form button{

@@ -26,3 +26,9 @@ async function searchImages(){
     //To print data
     console.log(data);
 }
+//Above functions will be executed when we add any keyword in the input field and click enter or click on the search button. For this we add submit event on the form 
+searchForm.addEventListener("submit", (e) =>{
+    e.preventDefault();
+    page = 1;
+    searchImages();
+})

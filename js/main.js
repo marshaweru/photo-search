@@ -32,7 +32,9 @@ async function searchImages(){
         const image = document.createElement("img");//Creates element with tag "img"
         //For this tag we add 1 url of the image
         image.src = result.urls.small;
-        
+        //Add a link for user to click on image, redirected to unsplash website,by created anchor tag "a"
+        const imageLink = document.createElement("a");
+
 
     })
 }

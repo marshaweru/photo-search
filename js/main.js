@@ -17,7 +17,7 @@ async function searchImages(){
     //Keyword will store value entered into input field//
     keyword = searchBox.value;
     //Add const and API urls. In API url we add page number and query text which is the keyword. We also add client ID
-    const url = `https://api.unsplash.com/search/photos?page=${page}&query=${keyword}&client_id=${accessKey}`;
+    const url = `https://api.unsplash.com/search/photos?page=${page}&query=${keyword}&client_id=${accessKey}&per_page=12`;//&per_page=12 gets us 12 results per page
 
     //To get response in browser//
     const response = await fetch(url);

@@ -24,7 +24,17 @@ async function searchImages(){
     const data = await response.json();
 
     //To print data
-    console.log(data);
+    //console.log(data);
+    const results = data.results;
+
+    results.map((result) =>{
+        //code shall be executed for each element of that array
+        const image = document.createElement("img");//Creates element with tag "img"
+        //For this tag we add 1 url of the image
+        image.src = result.urls.small;
+        
+
+    })
 }
 //Above functions will be executed when we add any keyword in the input field and click enter or click on the search button. For this we add submit event on the form 
 searchForm.addEventListener("submit", (e) =>{

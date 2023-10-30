@@ -24,7 +24,7 @@ async function searchImages(){
     const data = await response.json();
 //Clear page before giving new result
     if(page === 1){
-        searchResult.innerHTML =
+        searchResult.innerHTML = "";
     }
 
     //To print data

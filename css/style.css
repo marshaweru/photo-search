@@ -60,7 +60,7 @@ form button{
     color: bisque;
     margin: 10px auto 100px;
     cursor: pointer;
-    display: block;
+    display: none;
     background: #ff3929;
     padding: 10px 20px;
     outline: 0;

@@ -38,6 +38,10 @@ async function searchImages(){
         imageLink.href = result.links.html;
         //To open link in new tab
         imageLink.target = "_blank";
+        //Place img in "a" tag
+        imageLink.appendChild(image);//image will be in image link. it will be in "a" tag. "a" tag will be displayed in div called "search results"
+        //Variable "searchResult" from const above
+        searchResult.appendChild(imageLink);//image link will be displayed in search results
 
 
     })

@@ -26,7 +26,7 @@ async function searchImages(){
     //To print data
     //console.log(data);
     const results = data.results;
-
+    //Display images
     results.map((result) =>{
         //code shall be executed for each element of that array
         const image = document.createElement("img");//Creates element with tag "img"
@@ -42,8 +42,6 @@ async function searchImages(){
         imageLink.appendChild(image);//image will be in image link. it will be in "a" tag. "a" tag will be displayed in div called "search results"
         //Variable "searchResult" from const above
         searchResult.appendChild(imageLink);//image link will be displayed in search results
-
-
     })
 }
 //Above functions will be executed when we add any keyword in the input field and click enter or click on the search button. For this we add submit event on the form 

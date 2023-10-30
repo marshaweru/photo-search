@@ -73,7 +73,7 @@ form button{
     margin: 100px auto 50px;
     width: 80px;
     grid-gap: 40px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; /*3 images in 1 row*/
 }
 /*CSS for search result images*/
 #search-result img{

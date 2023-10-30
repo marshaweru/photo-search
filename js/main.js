@@ -20,4 +20,9 @@ async function searchImages(){
     const url = 'https://api.unsplash.com/search/photos?page=${page}&query=${keyword}&client_id=${accessKey}';
 
     //To get response in browser//
+    const response = await fetch(url);
+    const data = await response.json();
+
+    //To print data
+    console.log(data);
 }

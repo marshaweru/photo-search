@@ -1,5 +1,7 @@
 //Add JS that will fetch images from API AND display images on website
 //Add variable for elements ids search form, search box, search result and show more button
+const accessKey = "H1JhpW-4TQpjAIdxsd7bGzqv0Zy95x_zKXNtVC2xNDs";
+//Access key above will be added in API url below using client_id = ${accessKey}
 
 const searchForm = document.getElementById("search-form");
 const searchBox = document.getElementById("search-box");

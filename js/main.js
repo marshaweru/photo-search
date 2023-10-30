@@ -34,6 +34,8 @@ async function searchImages(){
         image.src = result.urls.small;
         //Add a link for user to click on image, redirected to unsplash website,by created anchor tag "a"
         const imageLink = document.createElement("a");
+        //Add href link
+        
 
 
     })

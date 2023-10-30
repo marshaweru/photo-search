@@ -69,5 +69,16 @@ form button{
 }
 /*to align results, decorate search results id*/
 #search-result{
-    
+    display: grid;
+    margin: 100px auto 50px;
+    width: 80px;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/*CSS for search result images*/
+#search-result img{
+    object-fit: cover;
+    height: 230px;
+    width: 100%;
+    border-radius: 5px;
 }

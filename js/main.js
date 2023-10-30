@@ -35,7 +35,9 @@ async function searchImages(){
         //Add a link for user to click on image, redirected to unsplash website,by created anchor tag "a"
         const imageLink = document.createElement("a");
         //Add href link
-        
+        imageLink.href = result.links.html;
+        //To open link in new tab
+        imageLink.target = "_blank";
 
 
     })

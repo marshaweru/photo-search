@@ -22,6 +22,10 @@ async function searchImages(){
     //To get response in browser//
     const response = await fetch(url);
     const data = await response.json();
+//Clear page before giving new result
+    if(page === 1){
+        searchResult.innerHTML =
+    }
 
     //To print data
     //console.log(data);
@@ -50,5 +54,10 @@ async function searchImages(){
 searchForm.addEventListener("submit", (e) =>{
     e.preventDefault();
     page = 1;
+    searchImages();
+})
+//Add click button
+showMoreBtn.addEventListener("click", ()=>{
+    page++;//Page++ increases value in page
     searchImages();
 })

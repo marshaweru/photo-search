@@ -43,6 +43,8 @@ async function searchImages(){
         //Variable "searchResult" from const above
         searchResult.appendChild(imageLink);//image link will be displayed in search results
     })
+    //Display show more button
+    showMoreBtn.style.display = "block";
 }
 //Above functions will be executed when we add any keyword in the input field and click enter or click on the search button. For this we add submit event on the form 
 searchForm.addEventListener("submit", (e) =>{

@@ -18,4 +18,6 @@ async function searchImages(){
     keyword = searchBox.value;
     //Add const and API urls. In API url we add page number and query text which is the keyword. We also add client ID
     const url = 'https://api.unsplash.com/search/photos?page=${page}&query=${keyword}&client_id=${accessKey}';
+
+    //To get response in browser//
 }

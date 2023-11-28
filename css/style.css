@@ -52,7 +52,7 @@ form button{
 }
 /*CSS to change color of placeholder text*/
 ::placeholder{
-    color: bisque;
+    color: rgb(110, 102, 92);
     font-size: 18px;
 }
 /*CSS styling for extra button id that shows results*/

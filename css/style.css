@@ -57,7 +57,7 @@ form button{
 }
 /*CSS styling for extra button id that shows results*/
 #show-more-btn{
-    color: bisque;
+    color: rgb(110, 102, 92);
     margin: 10px auto 100px;
     cursor: pointer;
     display: none;

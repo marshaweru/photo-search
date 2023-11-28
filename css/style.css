@@ -44,7 +44,7 @@ form button{
     font-size: 18px;
     border: 0;
     cursor: pointer;
-    background: firebrick;
+    background: rgb(212, 116, 116);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     color: bisque;

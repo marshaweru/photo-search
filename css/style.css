@@ -47,7 +47,7 @@ form button{
     background: rgb(212, 116, 116);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-    color: bisque;
+    color: rgb(151, 135, 115);
     outline: 0;
 }
 /*CSS to change color of placeholder text*/
